@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Wedding Event Registration</h2>
+
+<form action="thankyou.html" onsubmit="return validateForm()">
+
+<label>First Name:</label>
+<input type="text" id="fname" required><br><br>
+
+<label>Last Name:</label>
+<input type="text" id="lname" required><br><br>
+
+<label>Mobile Number:</label>
+<input type="text" id="mobile" required><br><br>
+
+<label>Email:</label>
+<input type="email" id="email" required><br><br>
+
+<label>Password:</label>
+<input type="password" id="password" required><br><br>
+
+<label>Age:</label>
+<input type="number" id="age" required><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender" required> Bride
+<input type="radio" name="gender"> Groom
+<br><br>
+
+<label>Food Preference:</label>
+<input type="checkbox"> Veg
+<input type="checkbox"> Non-Veg
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
